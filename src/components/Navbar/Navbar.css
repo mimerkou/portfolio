@@ -1,0 +1,117 @@
+.header {
+  margin-bottom: 5rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  box-shadow: 1px 0 1px rgba(100, 123, 255, 0.7);
+  z-index: 10;
+  background-color: #090a1a;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 8rem;
+  position: relative;
+}
+
+.logo {
+  width: auto;
+}
+
+.navbar-button {
+  display: flex;
+  column-gap: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  position: relative;
+  z-index: 1000;
+
+  border: 1px solid #647bff;
+  background-color: #090a1a;
+  color: #647bff;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.icon-button {
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+}
+
+.icon-button i {
+  margin: auto;
+}
+
+.close-icon {
+  display: none;
+}
+
+.menu {
+  position: absolute;
+  right: 1.55rem;
+  background-color: #647bff;
+  color: #f3f3f3;
+  padding: 1rem 1.5rem;
+  border-radius: 0.4rem;
+  z-index: -1;
+  transform-origin: right;
+
+  pointer-events: none;
+  transform: scale(0);
+  transition: transform 0.25s 0.25s cubic-bezier(1, 0, 0, 1);
+
+  border: 1px solid #647bff;
+  background-color: #090a1a;
+  color: #647bff;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.menu > .list {
+  opacity: 0;
+}
+
+.menu > .list .list-link {
+  text-transform: uppercase;
+}
+
+.list-link {
+  font-size: 1.5rem;
+}
+
+.list-link:hover,
+.list-link:focus,
+.list-link.active {
+  color: #ccd6f6;
+  transition: all 0.3s;
+}
+
+/* JS styles */
+.opened.menu {
+  z-index: initial;
+  pointer-events: initial;
+  transform: scale(1) translateX(-5.7rem);
+}
+
+.opened.menu > .list {
+  opacity: 1;
+  transition: opacity 0.1s 0.5s;
+}
+
+.opened .open-icon {
+  display: none;
+}
+
+.opened .close-icon {
+  display: block;
+}
