@@ -11,7 +11,7 @@
 html {
   font-size: 62.5%;
   letter-spacing: 1px;
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 
 body {
@@ -28,6 +28,7 @@ a {
   text-decoration: none;
   color: inherit;
   outline: none;
+  cursor: pointer;
 }
 
 img {
@@ -53,9 +54,8 @@ textarea {
   outline: none;
 }
 
-.container {
-  /* max-width: 114rem; */
+/* .container {
   max-width: 96rem;
   margin: 0 auto;
   padding: 0 1.5rem;
-}
+} */

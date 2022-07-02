@@ -1,16 +1,17 @@
-import React, { useState } from 'react';
-import Navbar from './components/Navbar/Navbar';
+import React from 'react';
+import Home from './pages/Home';
+// import Home from './sections/Home/Home';
+// import About from './sections/About/About';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 const App = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggle = () => {
-    setIsOpen(!isOpen);
-  };
-
   return (
     <>
-      <Navbar toggle={toggle} />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 };
