@@ -1,0 +1,21 @@
+.btn {
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 1.5rem 2.5rem;
+  margin-top: 4rem;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #647bff;
+  border-radius: 0.4rem;
+  color: #647bff;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: all ease 0.3s;
+}
+
+.btn:hover {
+  color: #ccd6f6;
+  background-color: #647bff;
+}

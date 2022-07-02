@@ -14,15 +14,16 @@
 }
 
 .home-header .name-is {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
+  font-weight: 300;
   color: #a2a2a2;
-  margin-bottom: 2rem;
+  margin-bottom: 0.4rem;
 }
 
 .home-header .michalis {
   font-size: 6rem;
   color: #ccd6f6;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .home-header .front-end {
@@ -87,7 +88,7 @@
     font-size: 2rem;
   }
 
-  .home-text p {
+  /* .home-text p {
     font-size: 1.7rem;
-  }
+  } */
 }

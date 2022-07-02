@@ -1,0 +1,154 @@
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+
+.item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.left {
+  flex: 1;
+  transform: scale(1);
+  transition: all 0.3s ease;
+}
+
+.left:hover {
+  transform: scale(1.05);
+}
+
+.right {
+  flex: 1;
+  margin-left: -15rem;
+  z-index: 2;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.item:nth-child(even) .right {
+  margin-left: 0;
+}
+
+.item:nth-child(even) .left {
+  margin-left: -15rem;
+}
+
+.project-image {
+  height: 40rem;
+  overflow: hidden;
+  border-radius: 0.4rem;
+  box-shadow: 0 0 2px #647bff;
+  position: relative;
+}
+
+.project-image img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.project-image::before {
+  position: absolute;
+  content: '';
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(100, 123, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.project-image:hover::before {
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.project-title {
+  font-size: 2.1rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #a2a2a2;
+  margin-bottom: 1.5rem;
+  align-self: flex-end;
+}
+
+.project-desc {
+  font-size: 1.7rem;
+  color: #8892b0;
+  margin-bottom: 2.5rem;
+
+  background-color: #171b3c;
+  padding: 5rem 2rem;
+  border-radius: 0.4rem;
+  box-shadow: 0 0 2px #647bff;
+  z-index: 2;
+}
+
+.project-buttons {
+  align-self: flex-end;
+}
+
+.project-buttons i {
+  font-size: 2.2rem;
+  color: #647bff;
+  padding-right: 1.6rem;
+  transition: all 0.3s linear;
+}
+
+.project-buttons i:hover {
+  color: #ccd6f6;
+}
+
+.item:nth-child(even) .right .project-title {
+  align-self: flex-start;
+}
+
+.item:nth-child(even) .right .project-buttons {
+  align-self: flex-start;
+}
+
+@media screen and (max-width: 768px) {
+  .item {
+    flex-direction: column;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .right {
+    width: 90%;
+    margin-left: 0;
+    margin-top: -10rem;
+    flex: 1;
+    background-color: #171b3c;
+    padding: 5rem 2rem;
+    padding: 2rem 2rem;
+    border-radius: 0.4rem;
+    box-shadow: 0 0 2px #647bff;
+  }
+
+  .project-title {
+    align-self: flex-start;
+  }
+
+  .project-desc {
+    padding: 0.5rem 0 1.5rem 0;
+    box-shadow: none;
+  }
+
+  .project-buttons {
+    align-self: flex-start;
+  }
+
+  .item:nth-child(even) {
+    flex-direction: column;
+  }
+
+  .item:nth-child(even) .left {
+    margin-left: 0;
+  }
+}

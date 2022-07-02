@@ -59,3 +59,11 @@ textarea {
   margin: 0 auto;
   padding: 0 1.5rem;
 } */
+
+.underline {
+  width: 5rem;
+  height: 0.25rem;
+  margin-bottom: 1.25rem;
+  background: #ccd6f6;
+  margin-bottom: 4rem;
+}
