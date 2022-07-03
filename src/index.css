@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+::selection {
+  background: #647bff;
+}
+
 html {
   font-size: 62.5%;
   letter-spacing: 1px;
