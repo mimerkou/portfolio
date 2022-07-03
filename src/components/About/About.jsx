@@ -33,7 +33,7 @@ const About = () => {
           social!
         </p>
 
-        <Button path="home">Say Hello</Button>
+        <Button path="contact">Say Hello</Button>
       </div>
 
       <div className="about-image">

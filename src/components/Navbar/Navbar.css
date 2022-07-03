@@ -100,8 +100,7 @@
 }
 
 .list-link:hover,
-.list-link:focus,
-.list-link.active {
+.list-link:focus {
   /* opacity: 0.7; */
   color: #ccd6f6;
   transition: all 0.3s;
