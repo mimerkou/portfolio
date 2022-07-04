@@ -1,6 +1,8 @@
 import React, { useState, useRef } from 'react';
 import { Link as LinkScroll, animateScroll } from 'react-scroll';
 import { Link as LinkRouter } from 'react-router-dom';
+import { motion } from 'framer-motion';
+import { logoVariant, menuIconVariant } from './NavbarMotion';
 import logo from '../../assets/logo.png';
 
 import './Navbar.css';
@@ -25,11 +27,18 @@ const Navbar = () => {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <LinkRouter to="/" className="logo" onClick={toggleHome}>
-            <img src={logo} alt="Logo" />
-          </LinkRouter>
+          <motion.div variants={logoVariant} initial="hidden" animate="visible">
+            <LinkRouter to="/" className="logo" onClick={toggleHome}>
+              <img src={logo} alt="Logo" />
+            </LinkRouter>
+          </motion.div>
 
-          <div className="menu-icon">
+          <motion.div
+            className="menu-icon"
+            variants={menuIconVariant}
+            initial="hidden"
+            animate="visible"
+          >
             <button
               type="button"
               className="button icon-button menu-toggle-button"
@@ -42,7 +51,7 @@ const Navbar = () => {
                 <i className="fa-solid fa-bars open-icon"></i>
               )}
             </button>
-          </div>
+          </motion.div>
 
           <div className="menu" ref={menuElement}>
             <ul className="list">

@@ -31,7 +31,7 @@
   position: relative;
   z-index: 1000;
   margin: auto 0;
-  border: 1px solid #647bff;
+  border: 2px solid #647bff;
   background-color: #090a1a;
   color: #647bff;
 }
