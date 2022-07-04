@@ -83,8 +83,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2.5rem;
+  /* gap: 2.5rem; */
+  /* margin: 0 2.5rem; */
   /* height: 3rem; */
+}
+
+.list-item {
+  margin: 0 2.5rem 0 0;
+}
+
+.list-item:last-child {
+  margin: 0;
 }
 
 .menu > .list {
