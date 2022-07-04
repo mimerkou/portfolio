@@ -45,7 +45,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 3rem;
+  /* gap: 3rem; */
+}
+
+.home-contact a {
+  margin-right: 3rem;
 }
 
 .home-contact a:first-child {

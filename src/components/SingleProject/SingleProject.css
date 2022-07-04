@@ -131,6 +131,10 @@
     box-shadow: 0 0 2px #647bff;
   }
 
+  .project-image {
+    height: 32.5rem;
+  }
+
   .project-title {
     align-self: flex-start;
   }

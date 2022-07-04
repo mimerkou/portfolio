@@ -141,7 +141,13 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 4rem;
+  /* gap: 4rem; */
+}
+
+.social-buttons a {
+  /* margin-left: 0; */
+  padding-left: 0;
+  margin: 0 2rem;
 }
 
 .contact-social i {

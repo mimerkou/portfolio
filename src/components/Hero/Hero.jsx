@@ -1,5 +1,4 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import React, { useEffect } from 'react';
 import {
   homeHeaderVariant,
   homeHeaderChildrenVariant,
@@ -7,9 +6,22 @@ import {
   homeContactVariant,
   homeContactChildrenVariant,
 } from './HeroMotion';
+import { motion, useAnimation } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 import './Hero.css';
 
 const Hero = () => {
+  const control = useAnimation();
+  const [ref, inView] = useInView();
+
+  useEffect(() => {
+    if (inView) {
+      control.start('visible');
+    } else {
+      control.start('hidden');
+    }
+  }, [control, inView]);
+
   return (
     <section className="home-container" id="home">
       <motion.div
@@ -47,6 +59,7 @@ const Hero = () => {
         variants={homeContactVariant}
         animate="visible"
         initial="hidden"
+        ref={ref}
       >
         <motion.a
           href="https://github.com/mimerkou"
