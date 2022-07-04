@@ -139,6 +139,14 @@
     flex-direction: column;
   }
 
+  .list-item {
+    margin: 1rem 0;
+  }
+
+  .list-item:last-child {
+    margin: 1rem 0;
+  }
+
   .menu {
     transform-origin: right;
   }
