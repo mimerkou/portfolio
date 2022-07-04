@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import SingleProject from '../SingleProject/SingleProject';
 import { projectsData } from './projectsData';
+import Fade from 'react-reveal/Fade';
 import './Projects.css';
 
 const Projects = () => {
@@ -21,10 +22,12 @@ const Projects = () => {
 
   return (
     <section className="projects-container" id="projects">
-      <div className="projects-heading">
-        <h2>Recent Projects</h2>
-        <div className="underline"></div>
-      </div>
+      <Fade bottom>
+        <div className="projects-heading">
+          <h2>Recent Projects</h2>
+          <div className="underline"></div>
+        </div>
+      </Fade>
 
       <div className="main-projects">
         {projects.map((project) => {
