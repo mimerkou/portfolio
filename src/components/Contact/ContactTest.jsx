@@ -6,32 +6,32 @@ import Fade from 'react-reveal/Fade';
 import './Contact.css';
 
 const ContactTest = () => {
-  const socialButtonsVariant = {
-    hidden: {
-      y: 20,
-      opacity: 0,
-    },
-    visible: {
-      y: 0,
-      opacity: 1,
-      transition: {
-        delay: 1,
-        when: 'beforeChildren',
-        staggerChildren: 0.2,
-      },
-    },
-  };
+  // const socialButtonsVariant = {
+  //   hidden: {
+  //     y: 20,
+  //     opacity: 0,
+  //   },
+  //   visible: {
+  //     y: 0,
+  //     opacity: 1,
+  //     transition: {
+  //       delay: 1,
+  //       when: 'beforeChildren',
+  //       staggerChildren: 0.2,
+  //     },
+  //   },
+  // };
 
-  const socialButtonsChildrenVariant = {
-    hidden: {
-      y: 20,
-      opacity: 0,
-    },
-    visible: {
-      y: 0,
-      opacity: 1,
-    },
-  };
+  // const socialButtonsChildrenVariant = {
+  //   hidden: {
+  //     y: 20,
+  //     opacity: 0,
+  //   },
+  //   visible: {
+  //     y: 0,
+  //     opacity: 1,
+  //   },
+  // };
 
   // const control = useAnimation();
   // const [ref, inView] = useInView();
@@ -53,6 +53,11 @@ const ContactTest = () => {
         </Zoom>
 
         <Zoom delay={250}>
+          <p className="full-time-occupied">
+            Although I am full-time occupied, I never miss a chance to work on
+            an interesting project.
+          </p>
+
           <p className="website">
             If you have a website or an idea in mind, feel free to contact me,
             get a quick estimate and a plan for making it live.
