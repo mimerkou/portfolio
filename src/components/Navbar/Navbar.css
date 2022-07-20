@@ -115,10 +115,10 @@
   transition: all 0.3s;
 }
 
-/* .list-link.active {
+.list-link.active {
   color: #ccd6f6;
   transition: all 0.3s ease-in-out;
-} */
+}
 
 .opened.menu {
   z-index: initial;

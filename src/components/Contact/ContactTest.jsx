@@ -54,8 +54,8 @@ const ContactTest = () => {
 
         <Zoom delay={250}>
           <p className="full-time-occupied">
-            Although I am full-time occupied, I never miss a chance to work on
-            an interesting project.
+            Although I'm full-time occupied, I never miss a chance to work on
+            interesting projects.
           </p>
 
           <p className="website">
@@ -127,8 +127,6 @@ const ContactTest = () => {
             </a>
           </Fade>
         </div>
-
-        <p className="developer">Designed & Developed by Michalis Merkouris</p>
       </div>
     </section>
   );

@@ -59,7 +59,7 @@ const Navbar = () => {
                 <LinkScroll
                   to="home"
                   className="list-link"
-                  // activeClass="active"
+                  activeClass="active"
                   offset={-80}
                   spy={true}
                   smooth={true}
@@ -72,7 +72,7 @@ const Navbar = () => {
                 <LinkScroll
                   to="about"
                   className="list-link"
-                  // activeClass="active"
+                  activeClass="active"
                   offset={-80}
                   spy={true}
                   smooth={true}
@@ -85,7 +85,7 @@ const Navbar = () => {
                 <LinkScroll
                   to="projects"
                   className="list-link"
-                  // activeClass="active"
+                  activeClass="active"
                   offset={-80}
                   spy={true}
                   smooth={true}
@@ -98,7 +98,7 @@ const Navbar = () => {
                 <LinkScroll
                   to="contact"
                   className="list-link"
-                  // activeClass="active"
+                  activeClass="active"
                   offset={-80}
                   spy={true}
                   smooth={true}

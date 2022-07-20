@@ -1,5 +1,4 @@
 .contact-container {
-  min-height: 100vh;
   min-height: calc(100vh - 8rem);
   max-width: 96rem;
   padding: 10rem 2.5rem;
@@ -169,13 +168,6 @@ form {
 .contact-social:hover i {
   transform: translateY(-0.5rem);
   color: #ccd6f6;
-}
-
-.developer {
-  margin-top: 15rem;
-  font-size: 1.5rem;
-  font-weight: 300;
-  color: #a2a2a2;
 }
 
 @media screen and (max-width: 768px) {
