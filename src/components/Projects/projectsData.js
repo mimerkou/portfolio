@@ -1,5 +1,5 @@
 import project1Foto from '../../assets/valmore-technologies.jpg';
-import project2Foto from '../../assets/project-2.jpg';
+import project2Foto from '../../assets/apergis-knitwear.jpg';
 import project3Foto from '../../assets/project-3.jpg';
 
 export const projectsData = [
@@ -13,8 +13,8 @@ export const projectsData = [
     livePreviewUrl: 'https://valmore-website.netlify.app/',
   },
   {
-    id: 'Apergis Knitwear',
-    name: 'Project title',
+    id: 'mainProject02',
+    name: 'Apergis Knitwear',
     image: project2Foto,
     description:
       'My very first React Website. Built with Hooks, React Scroll and some custom CSS.',
