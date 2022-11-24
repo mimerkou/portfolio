@@ -1,6 +1,7 @@
 import project1Foto from '../../assets/valmore-technologies.jpg';
 import project2Foto from '../../assets/apergis-knitwear.jpg';
-import project3Foto from '../../assets/project-3.jpg';
+import project3Foto from '../../assets/project-03.jpg';
+import project4Foto from '../../assets/project-04.jpg';
 
 export const projectsData = [
   {
@@ -33,7 +34,7 @@ export const projectsData = [
   {
     id: 'mainProject04',
     name: 'Project title',
-    image: project2Foto,
+    image: project4Foto,
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, quibusdam.',
     githubUrl: '#',
