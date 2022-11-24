@@ -13,13 +13,13 @@ export const projectsData = [
     livePreviewUrl: 'https://valmore-website.netlify.app/',
   },
   {
-    id: 'mainProject02',
+    id: 'Apergis Knitwear',
     name: 'Project title',
     image: project2Foto,
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, quibusdam.',
-    githubUrl: '#',
-    livePreviewUrl: '#',
+      'My very first React Website. Built with Hooks, React Scroll and some custom CSS.',
+    githubUrl: 'https://github.com/mimerkou/portfolio',
+    livePreviewUrl: 'https://apergis-knitwear.gr/',
   },
   {
     id: 'mainProject03',
