@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => {
   return (
     <footer>
-      <p className="developer">Designed & Developed by Michalis Merkouris</p>
+      <p className="developer">Developed by Michalis Merkouris</p>
     </footer>
   );
 };

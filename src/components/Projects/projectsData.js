@@ -19,7 +19,7 @@ export const projectsData = [
     image: project2Foto,
     description:
       'My very first React Website. Built with Hooks, React Scroll and some custom CSS.',
-    githubUrl: 'https://github.com/mimerkou/portfolio',
+    githubUrl: 'https://github.com/mimerkou/apergis-knitwear',
     livePreviewUrl: 'https://apergis-knitwear.gr/',
   },
   {

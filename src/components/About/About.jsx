@@ -22,8 +22,8 @@ const About = () => {
               WebDots
             </a>{' '}
             and I'm fond of building websites. In addition to full-time work, I
-            am striving to become great at front-end development by working on
-            several projects. The main technologies I'm working with are: HTML,
+            am striving to become great at front-end development by studying and
+            working on several projects. The main technologies I use are: HTML,
             CSS, JavaScript and React.
           </p>
           <br />
