@@ -18,7 +18,7 @@ export const projectsData = [
     name: 'Apergis Knitwear',
     image: project2Foto,
     description:
-      'My very first React Website. Built with Hooks, React Scroll and some custom CSS.',
+      'My very first React Live Project. Built with Hooks, React Scroll and some custom CSS.',
     githubUrl: 'https://github.com/mimerkou/apergis-knitwear',
     livePreviewUrl: 'https://apergis-knitwear.gr/',
   },
