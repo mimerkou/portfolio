@@ -1,6 +1,6 @@
 import project1Foto from '../../assets/valmore-technologies.jpg';
 import project2Foto from '../../assets/apergis-knitwear.jpg';
-import project3Foto from '../../assets/project-03.jpg';
+import project3Foto from '../../assets/danilis-mobile.jpg';
 import project4Foto from '../../assets/project-04.jpg';
 
 export const projectsData = [
@@ -24,12 +24,12 @@ export const projectsData = [
   },
   {
     id: 'mainProject03',
-    name: 'Project title',
+    name: 'Mesogeia Fire Control',
     image: project3Foto,
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, quibusdam.',
-    githubUrl: '#',
-    livePreviewUrl: '#',
+      'ReactJS and TailwindCSS Website. Built with Hooks, React Scroll and AOS animation library.',
+    githubUrl: 'https://github.com/mimerkou/danilis-website',
+    livePreviewUrl: 'https://danilis.netlify.app/',
   },
   {
     id: 'mainProject04',
